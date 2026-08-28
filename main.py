@@ -14,7 +14,7 @@ dp = Dispatcher()
 @dp.message(CommandStart())
 async def start_handler(message: Message) -> None:
     await message.answer(
-        f"Привет, {message.from_user.first_name}! Я простой бот. Пока что умею только здороваться."
+        f"Привет, {message.from_user.first_name}! Я простой бот!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Пока что умею только здороваться."
     )
 
 
